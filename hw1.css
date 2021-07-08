@@ -1,22 +1,67 @@
 header{
-  background-color:#808080;
-}
-h1{ 
-    color:#ffffff;
-    font-style: oblique;
-    text-align: center;
-}
-span{
-    color:#000000;
-    text-align:left;
-}
-h2{
-    color:#0000ff;
-    font-style: inherit;
-}
-body{
-    background-color:#ffffff;
-}
-div{
-    background-color: rgb(169,169,169);
-}
+    background-image: url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+    height:150px;
+  }
+  p{
+      font-size:medium;
+  }
+  h1{ 
+      color:#ffffff;
+      font-style: oblique;
+      text-align: center;  `
+      font-weight: 100;
+      text-size:large;
+  }
+  nav{
+      font: size 60px;
+      text-align: center;
+      font-style:inherit;
+      text-decoration: wavy;
+  }
+  a{
+      color:#000000;
+      display:inline-block;
+      width: 50px;
+      height: 25px;
+      margin: 20px;
+      border: inset 2px #ffffff;  
+  }
+  .box{
+      float: center;
+      margin: 1%;
+      width: 20%;
+      background: #ffffff;
+      background-color: transparent;
+  }
+  a:hover{
+      background-color: #ffffff;
+      color: #000000;
+  }
+  h2{
+      color:#000000;
+      font-style:inherit;
+      font-size:medium;
+  }
+  body{
+      background-color:#ffffff;
+  }
+  .highlights{
+    
+  }
+  img{
+      height: 75px;
+      width: 125px;
+      margin:auto;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      border: solid #000000;
+      box-sizing: border-box;
+      display: block;
+      text-align: center;
+  }
+  section{
+      background-color: rgb(87, 87, 4);
+      float: left;
+      width: 20%;
+      height: 425px;
+  }
